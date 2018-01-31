@@ -125,6 +125,7 @@ def twoOpt(tourPath, tourDistance):
                     k = i + 3
     return(tourPath, tourDistance)
 
+
 # This function calculates the total cost of the given TSP tour, including the distance travelled
 # to get from the end back to start
 def calcCost(path):
